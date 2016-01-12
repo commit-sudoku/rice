@@ -1,0 +1,1087 @@
+/*  Designed by Hong Sul for her usage only, but Kanna is using it anyways. (SORRY)  */
+
+/* ---------- 
+   import   
+ ---------- */
+
+@import "https://dl.dropboxusercontent.com/u/281870773/hongsulanimecovers.css";
+@import url(http://fonts.googleapis.com/css?family=Lato:300|Open+Sans:400,300);
+
+
+body {
+
+  background: #fff;
+  font-size: 0;
+}
+
+
+
+#mal_control_strip,
+#mal_cs_listinfo,
+#mal_cs_links,
+#mal_cs_otherlinks {
+  background: none!important;
+  border-color: transparent!important;
+}
+
+#list_surround {
+
+  position: absolute;
+
+  right: 50%;
+
+  margin-right: -110px;
+
+  margin-top: 45px;
+  width: 600px;
+
+}
+
+
+
+a {
+
+  outline: none;
+
+  color: #777;
+
+  text-decoration: none;
+
+  border-bottom: none!important;
+
+}
+
+
+/***************/
+/*****menu*****/
+/***************/
+/*log out link*/
+#mal_cs_listinfo div a {
+  visibility: hidden;
+}
+
+/*home*/
+#mal_cs_links div:nth-child(1) a:nth-child(2) {
+  position: fixed;
+  top: 175px;
+  left: 50%;
+  margin-left: 330px;
+}
+
+/*anime list*/
+#mal_cs_links div:nth-child(2) a:nth-child(1) {
+  position: fixed;
+  top: 201px;
+  left: 50%;
+  margin-left: 330px;
+}
+
+/*manga list*/
+#mal_cs_links div:nth-child(2) a:nth-child(2) {
+  position: fixed;
+  top: 227px;
+  left: 50%;
+  margin-left: 330px;
+}
+
+/*add to list*/
+a[href='/addtolist.php?hidenav=1'] {
+  position: fixed;
+  top: 253px;
+  left: 50%;
+  margin-left: 330px;
+}
+
+/*history*/
+a[href='/history/Hong-Sul']:before {
+  display: none!important;  
+}
+
+a[href='/history/Hong-Sul'] {
+  position: fixed;
+  top: 279px;
+  left: 50%;
+  margin-left: 330px;
+  font-size: 12px!important;
+  color: red!important;
+}
+
+/*export & my manga list*/
+  a[href='/panel.php?go=export'], #mal_control_strip a:nth-child(3) {
+  position: fixed;
+  top: 305px!important;
+  left: 50%;
+  margin-left: 160px;
+  width: 330px!important;
+  height: 22px;
+  background: #fff!important;
+  border-bottom: 1px solid #f0f0f0!important;
+  font-family: Open Sans!important;
+  font-weight: 400!important;
+  font-size: 11px!important;
+  text-align: center;
+  color: #999!important;
+  color: #777;
+
+  line-height: 22px;  
+  text-decoration: none!important;
+  text-transform: lowercase!important;
+  letter-spacing: 1.5px;
+  -webkit- transition: letter-spacing .5s linear;
+  -moz-transition: letter-spacing .5s linear;
+  transition: letter-spacing .5s linear;
+}
+
+a[href='/panel.php?go=export']:hover, #mal_control_strip a:nth-child(3):hover {
+  letter-spacing: 2.7px;
+}
+
+/*cur. watching*/
+.status_selected:nth-child(1) a,
+.status_not_selected:nth-child(1) a {
+  position: fixed!important;
+  top: 175px;
+  left: 50%;
+  margin-left: 160px;
+  width: 160px;
+  height: 22px;
+  display: block!important;
+  background: #fff!important;
+  border-bottom: 1px solid #f0f0f0!important;
+  font-family: Open Sans!important;
+  font-weight: 400!important;
+  font-size: 11px!important;
+  color: #999!important;
+  text-align: center;
+  line-height: 22px;
+  text-decoration: none!important;
+  text-transform: lowercase!important;
+  letter-spacing: 1.5px;
+  -webkit- transition: letter-spacing .5s linear;
+  -moz-transition: letter-spacing .5s linear;
+  transition: letter-spacing .5s linear;
+}
+
+/*completed*/
+.status_selected:nth-of-type(2) a,
+.status_not_selected:nth-of-type(2) a {
+  position: fixed;
+  top: 201px;
+  left: 50%;
+  margin-left: 160px;
+  width: 160px;
+  height: 22px;
+  display: block!important;
+  background: #fff!important;
+  border-bottom: 1px solid #f0f0f0!important;
+  font-family: Open Sans!important;
+  font-weight: 400!important;
+  font-size: 11px!important;
+  color: #999!important;
+  text-align: center;
+  line-height: 22px;
+  text-decoration: none!important;
+  text-transform: lowercase!important;
+  letter-spacing: 1.5px;
+  -webkit- transition: letter-spacing .5s linear;
+  -moz-transition: letter-spacing .5s linear;
+  transition: letter-spacing .5s linear;
+}
+
+/*on hold*/
+.status_selected:nth-of-type(3) a,
+.status_not_selected:nth-of-type(3) a {
+  position: fixed;
+  top: 227px;
+  left: 50%;
+  margin-left: 160px;
+  width: 160px;
+  height: 22px;
+  display: block!important;
+  background: #fff!important;
+  border-bottom: 1px solid #f0f0f0!important;
+  font-family: Open Sans!important;
+  font-weight: 400!important;
+  font-size: 11px!important;
+  color: #999!important;
+  text-align: center;
+  line-height: 22px;
+  text-decoration: none!important;
+  text-transform: lowercase!important;
+  letter-spacing: 1.5px;
+  -webkit- transition: letter-spacing .5s linear;
+  -moz-transition: letter-spacing .5s linear;
+  transition: letter-spacing .5s linear;
+}
+
+/*dropped*/
+.status_selected:nth-of-type(4) a,
+.status_not_selected:nth-of-type(4) a {
+  position: fixed;
+  top: 253px;
+  left: 50%;
+  margin-left: 160px;
+  width: 160px;
+  height: 22px;
+  display: block!important;
+  background: #fff!important;
+  border-bottom: 1px solid #f0f0f0!important;
+  font-family: Open Sans!important;
+  font-weight: 400!important;
+  font-size: 11px!important;
+  color: #999!important;
+  text-align: center;
+  line-height: 22px;
+  text-decoration: none!important;
+  text-transform: lowercase!important;
+  letter-spacing: 1.5px;
+  -webkit- transition: letter-spacing .5s linear;
+  -moz-transition: letter-spacing .5s linear;
+  transition: letter-spacing .5s linear;
+}
+
+/*plan to watch*/
+.status_selected:nth-of-type(5) a,
+.status_not_selected:nth-of-type(5) a {
+  position: fixed;
+  top: 279px;
+  left: 50%;
+  margin-left: 160px;
+  width: 160px;
+  height: 22px;
+  display: block!important;
+  background: #fff!important;
+  border-bottom: 1px solid #f0f0f0!important;
+  font-family: Open Sans!important;
+  font-weight: 400!important;
+  font-size: 11px!important;
+  color: #999!important;
+  text-align: center;
+  line-height: 22px;
+  text-decoration: none!important;
+  text-transform: lowercase!important;
+  letter-spacing: 1.5px;
+  -webkit- transition: letter-spacing .5s linear;
+  -moz-transition: letter-spacing .5s linear;
+  transition: letter-spacing .5s linear;
+}
+
+#mal_cs_links div:nth-child(1) a:nth-child(2),
+#mal_cs_links div:nth-child(2) a:nth-child(1),
+#mal_cs_links div:nth-child(2) a:nth-child(2),
+a[href='/addtolist.php?hidenav=1'],
+a[href='/history/Hong-Sul'] {
+  width: 160px;
+  height: 22px;
+  background: #fff!important;
+  border-bottom: 1px solid #f0f0f0!important;
+  font-family: Open Sans!important;
+  font-weight: 400!important;
+  font-size: 11px!important;
+  color: #999!important;
+  text-align: center;
+  line-height: 22px;
+  text-decoration: none!important;
+  text-transform: lowercase!important;
+  letter-spacing: 1.5px;
+  -webkit- transition: letter-spacing .5s linear;
+  -moz-transition: letter-spacing .5s linear;
+  transition: letter-spacing .5s linear;
+}
+
+#mal_cs_links div:nth-child(1) a:nth-child(2):hover,
+#mal_cs_links div:nth-child(2) a:nth-child(1):hover,
+#mal_cs_links div:nth-child(2) a:nth-child(2):hover,
+a[href='/addtolist.php?hidenav=1']:hover,
+a[href='/history/Hong-Sul']:hover,
+.status_selected a:first-of-type:hover,
+.status_not_selected a:first-of-type:hover,
+.status_selected a:nth-of-type(2):hover,
+.status_not_selected a:nth-of-type(2):hover,
+.status_selected a:nth-of-type(3):hover,
+.status_not_selected a:nth-of-type(3):hover,
+.status_selected a:nth-of-type(4):hover,
+.status_not_selected a:nth-of-type(4):hover,
+.status_selected a:nth-of-type(5):hover,
+.status_not_selected a:nth-of-type(5):hover {
+  letter-spacing: 2.7px;
+}
+
+/**************************/
+
+/*****pseudo author info*****/
+
+/**************************/
+#mal_cs_powered {
+  position: fixed;
+  background:url('http://static.diary.ru/userdir/1/3/1/8/1318992/81878922.png') no-repeat;
+  margin-top: -39px;
+  left: 50%;
+  margin-left: 160px;
+  width: 64px!important;
+  height: 64px!important;
+}
+
+/*username*/
+#mal_cs_listinfo div strong a {
+  position: fixed;
+  visibility: visible!important;
+  font-family: 'Open Sans';
+  font-weight: 300!important;
+  font-size: 12px;
+  color: #444444!important;
+  text-decoration: none!important;
+  top: 66px;
+  left: 50%;
+  margin-left: 238px;
+}
+
+#mal_cs_listinfo div strong a:before {
+  content: "Hello ";
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 12px;
+  color: #444444;
+  text-decoration: none!important;
+}
+
+#mal_cs_listinfo div strong a:after {
+  content: "!";
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 12px;
+  color: #444444;
+  text-decoration: none!important;
+}
+
+/*text*/
+body:after {
+  position: fixed;
+  left: 50%;
+  margin-left: 238px;
+  top: 81px;
+  width: 250px;
+  content: "I'm Chrissy and this is a list of anime that I'm watching, that I've watched, and that I plan to watch.";
+  color: #444444!important;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 12px;
+  line-height:110%;
+}
+
+/*shared anime + my manga list link*/
+#mal_control_strip {
+  position: fixed;
+  color: red;
+  margin-top: 105px!important;
+}
+
+/*shared*/
+#mal_cs_otherlinks div:nth-child(2) a:nth-child(1):before {
+  content: 'We share';
+  border-bottom: 1px dotted #cdcdcd;
+  color: #444444!important;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 12px;
+  margin-left: 238px;
+}
+
+#mal_cs_otherlinks div:nth-child(2) a:nth-child(1) {
+  position: fixed;
+  left: 50%;
+  font size: 0;
+  color: transparent;
+  text-decoration: none!important;
+}
+
+/*percent*/
+#mal_control_strip span {
+  position: fixed;
+  color: blue!important;
+  left: 50%;
+  margin-left: 293px;
+  color: #444444!important;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 12px!important;
+}
+
+#mal_control_strip span:after {
+  content: ' of animes';
+}
+
+/*************************/
+
+/*****anime list options*****/
+
+/*************************/
+
+
+
+.td1,
+.td2 {
+
+  height: 140px;
+
+}
+
+
+
+.table_header {
+
+  height: 40px;
+
+  background: rgba(255,255,255,1);
+
+  /*font-size: 0;
+
+  color: transparent;
+*/
+}
+
+/*title order*/
+.table_header:nth-child(2) a {
+  position: relative;
+  top: 49px;
+  left: 100px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('http://static.diary.ru/userdir/1/3/1/8/1318992/81882671.jpg');
+  text-indent: -99999px;
+  filter: alpha(opacity=15);
+  opacity: .15;
+  -webkit-transition: -webkit-opacity .5s linear;
+  -moz-transition: -moz-opacity .5s linear;
+  transition: opacity .5s linear;
+}
+
+/*  ---------------
+    score order
+---------------  */
+.table_header:nth-child(3) a {
+  position: relative;
+  top: 113px;
+  left: -192px;
+}
+
+a[href*='status=6&order=4'],
+a[href*='status=6&show=0&order=4']{
+  position: relative;
+  top: 95px;
+  left: -112px!important;
+}
+
+/* -------------
+   type order
+------------- */
+.table_header:nth-child(4) a {
+  position: relative;
+  top: 128px;
+  left: -350px;
+}
+
+a[href*='status=6&order=6'],
+a[href*='status=6&show=0&order=6'] {
+  position: relative;
+  top: 128px;
+  left: -270px!important;
+}
+
+/*  -----------------
+    progress order 
+-----------------  */
+.table_header:nth-child(5) a {
+  position: relative;
+  top: 96px;
+  left: -300px;
+}
+
+a[href*='status=6&order=12'],
+a[href*='status=6&show=0&order=12'] {
+  position: relative;
+  top: 95px;
+  left: -220px!important;
+}
+
+/*  ----------------
+    priority order
+----------------  */
+.table_header:nth-child(7) a {
+  position: relative;
+  top: 130px;
+  left: -420px;
+}
+
+.table_header:nth-child(3) a,
+.table_header:nth-child(4) a, 
+.table_header:nth-child(5) a,
+.table_header:nth-child(7) a {
+  display: block;
+  z-index: 1000!important;
+  width: 12px;
+  height: 12px;
+  background: url('http://static.diary.ru/userdir/1/3/1/8/1318992/81882667.png');
+  text-indent: -99999px;
+  filter: alpha(opacity=15);
+  opacity: .15;
+  -webkit-transition: -webkit-opacity .5s linear;
+  -moz-transition: -moz-opacity .5s linear;
+  transition: opacity .5s linear;
+}
+
+.table_header:nth-child(2) a:hover,
+.table_header:nth-child(3) a:hover,
+.table_header:nth-child(4) a:hover, 
+.table_header:nth-child(5) a:hover,
+.table_header:nth-child(7) a:hover {
+  filter: alpha(opacity=80);
+  opacity: .8!important;
+}
+
+
+
+.header_title {
+
+  position: absolute;
+
+  margin-top: 0;
+ 
+  padding-top: 10px!important;
+  padding-right: 40px;
+  width: 560px;
+
+  height: 30px;
+  background: #fff;
+  border-top: 1px solid #e4e5df!important;
+  border-right: 1px solid #e4e5df!important;
+  border-left: 1px solid #e4e5df!important;
+  text-align: right;
+
+  text-transform: lowercase;
+  font-size: 20px;
+
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+
+
+.td1:nth-child(2) small,
+.td2:nth-child(2) small {
+
+  color: transparent;
+ /* making dash in title section invisible */
+
+}
+
+
+
+/*  ---------
+    title
+---------  */
+/*background only*/
+.td1:nth-child(2),
+.td2:nth-child(2) {
+
+  width: 599px!important;
+
+  padding: 0 52px 0 149px;
+
+  background: rgba(255,255,255,1);  
+  border-right: 1px solid #e4e5df!important;
+  border-left: 1px solid #e4e5df!important;
+}
+
+
+
+.animetitle {
+
+  display: block;
+
+  margin-top: -45px;
+
+  width: 399px!important;
+
+  font-size: 20px;
+  font-family: 'Lato';
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  text-overflow: ellipsis;
+
+  overflow: hidden!important;
+
+  color: #333;
+
+}
+
+/* edit link in anime's title section */
+small .List_LightBox {
+  position: relative;
+  display: block;
+  top: -40px!important;
+  left: 20px!important;
+  width: 16px;
+  height: 16px;
+  background: url('https://33.media.tumblr.com/7d2fac889d6082cf505f425c384c8a5e/tumblr_ncpxupQKDz1qdngzwo1_75sq.gif');
+  text-indent: -99999px;
+  filter: alpha(opacity=15);
+  opacity: .15;
+  -webkit-transition: -webkit-opacity .5s linear;
+  -moz-transition: -moz-opacity .5s linear;
+  transition: opacity .5s linear;
+}
+
+.List_LightBox:hover {
+  filter: alpha(opacity=80);
+  opacity: .8;
+}
+
+/*  --------
+    tags
+--------  */
+
+
+
+.td1:nth-child(6),
+.td2:nth-child(6) {
+
+  position: absolute;
+
+  margin-top: 40px;
+
+  left: 150px;
+
+  width: 400px;
+
+  height: auto;
+
+  display: inline;
+
+  background: none;
+ 
+  font-size: 12px;
+ 
+  font-family: 'Open Sans';
+  font-weight: 300;
+  text-transform: lowercase;
+  line-height: 1;
+} 
+
+
+.td1:nth-child(6) a small,
+.td2:nth-child(6) a small {
+  position: relative;
+  left: 20px!important;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('https://33.media.tumblr.com/7d2fac889d6082cf505f425c384c8a5e/tumblr_ncpxupQKDz1qdngzwo1_75sq.gif');
+  text-indent: -99999px;
+  filter: alpha(opacity=15);
+  opacity: .15;
+  -webkit-transition: -webkit-opacity .5s linear;
+  -moz-transition: -moz-opacity .5s linear;
+  transition: opacity .5s linear;
+}
+
+.td1:nth-child(6) a small:hover,
+.td2:nth-child(6) a small:hover {
+  filter: alpha(opacity=80);
+  opacity: .8;
+}
+
+/* ---------------------
+   number of episodes
+--------------------- */
+
+
+.td1:nth-child(5):before,
+.td2:nth-child(5):before {
+
+  content: 'Episodes: ';
+
+}
+
+.td1:nth-child(5),
+.td2:nth-child(5) {
+
+  position: absolute;
+
+  margin-top: 68px;
+
+  left: 150px;
+
+  width: 200px;
+
+  height: 17px;
+
+  background: transparent;
+
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+
+  text-align: left;
+} 
+
+
+/***********/
+/***score***/
+/***********/
+
+.td1:nth-child(3):before,
+.td2:nth-child(3):before {
+
+  content: 'Score: ';
+
+}
+
+
+
+
+.td1:nth-child(3),
+.td2:nth-child(3) {
+
+  position: absolute;
+
+  margin-top: 85px;
+
+  left: 150px;
+
+  height: 17px;
+
+  width: 200px;
+
+  background: transparent;
+
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+
+  text-align: left;
+
+}
+
+
+/************/
+/***priority***/
+/************/
+
+
+
+
+.td1:nth-child(7):before,
+.td2:nth-child(7):before {
+  content: "Priority: ";
+}
+
+
+
+.td1:nth-child(7),
+.td2:nth-child(7) {
+  position: absolute;
+
+  margin-top: 102px;
+
+  left: 150px;
+
+  width: 200px;
+
+  height: 17px;
+
+  display: inline;
+
+  background: none;
+ 
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+ 
+  text-align: left;
+}
+
+
+/*airing or publishing*/
+.animetitle + small:before {
+
+  content: 'Status: ';
+
+}
+
+.animetitle + small {
+  position: absolute;
+
+  margin-top: 79px;
+
+  left: 150px;
+
+  width: 200px;
+
+  height: 17px;
+
+  display: inline;
+
+  background: none;
+ 
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+ 
+  text-align: left;
+  color: #000!important;
+}
+
+/***********/
+/***totals***/
+/***********/
+
+
+.category_totals {
+
+  padding: 15px 40px;
+  min-width: 520px!important;
+  max-width: 520px!important;
+  height: auto;
+  background: #fff;
+
+  border-right: 1px solid #e4e5df!important;
+  border-bottom: 1px solid #e4e5df!important;
+  border-left: 1px solid #e4e5df!important;
+  font-family: 'Lato';
+  font-size: 14px!important;
+  color: #4b4b4b!important;
+}
+
+/************/
+/***credits***/
+/************/
+
+#copyright {
+  margin: 20px 0 53px;
+  font-family: 'Lato';
+  font-size: 14px!important;
+  color: #4b4b4b!important;
+}
+
+#copyright:after {
+  content: 'Designed by Hong Sul.';
+}
+
+
+/*************/
+/***number***/
+/*************/
+
+
+
+.td1:nth-child(1),
+.td2:nth-child(1) {
+
+  position: absolute;
+
+  margin-top: 60px;
+
+  left: 40px;
+
+  width: 80px;
+
+  height: auto;
+
+  text-align: center;
+ 
+  font-family: 'Lato';
+  font-size: 20px;
+
+}
+
+
+/***********/
+/***cover***/
+/***********/
+
+
+
+.hide {
+
+  position: relative;
+  top: -130px;
+  left: 40px;
+
+  z-index: 2;
+  display: inline-block!important;
+
+  padding: 60px 40px!important;
+  margin-bottom: -125px!important;
+
+  visibility: visible!important;
+
+
+ 
+
+ border: 1px solid #ededed!important;
+  background-image: url('https://33.media.tumblr.com/258e39064f1df08368bbe96952d66aa1/tumblr_ncq1j0eqqW1qdngzwo1_100.jpg')  center center no-repeat;
+  -moz-background-size: cover;
+
+  background-size: cover;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+
+  transition: all .2s ease;
+
+ 
+ box-shadow: 0 3px 3px -3px rgba(188, 190, 188, 0.8);
+}
+
+
+
+.hide:hover {
+  filter: alpha(opacity=19);
+
+  opacity: .19;
+}
+
+
+
+
+/**********/
+/***type***/
+/**********/
+
+/*type's background and text code*/
+.td1:nth-child(4),
+.td2:nth-child(4) {
+
+  
+position: absolute;
+
+  
+left: 25px;
+
+  margin-top: 95px;
+  width: 90px;
+  
+height: auto;
+  
+padding: 5px 10px 5px!important;
+
+  background: rgba(255, 255, 255, .85);
+
+  white-space:nowrap;
+
+  z-index: 20;
+
+  font-family: 'Lato';
+  text-align: center;
+
+  
+font-size: 13px!important;
+  
+color: rgba(0, 0, 0, 1.0);
+
+  text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+
+
+
+} 
+
+
+/*top gradient border*/
+.td1:nth-child(4):before,
+.td2:nth-child(4):before {
+
+  content: '';
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 1px;
+  
+  background: linear-gradient(to right, #ffffff 0%, #ccc 50%, #ffffff 100%);
+
+}
+
+
+/*bottom gradient border*/
+
+.td1:nth-child(4):after,
+.td2:nth-child(4):after {
+
+  content:'';
+
+  position: absolute;
+
+  bottom: 0;
+
+  left: 0;
+ 
+  width: 100%;
+
+  height: 1px;
+
+  background: linear-gradient(to right, #ffffff 0%, #ccc 50%, #ffffff 100%);
+
+  box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.4);
+
+}
+
+.status_selected,
+.status_not_selected { 
+  color: black;
+  font-size: 12px;
+}
+
+/*********/
+
+/**log in**/
+
+/********/
+
+a[href='/login.php'] {
+  position: fixed;
+  top: 66px;
+  left: 50%;
+  margin-left: 0;
+  font-size: 0;
+  color: transparent;
+}
+
+a[href='/login.php']:before {
+  content:"Hello stranger!"!important;
+  color: #444444;
+  width: 250px!important;
+  border-bottom: none!important;
+}
+
+/***************/
+
+/**display none**/
+
+/***************/
+
+.td1:nth-child(2) small a:nth-child(2)  /*more link in title section*/,
+
+.td2:nth-child(2) small a:nth-child(2) /*same*/,
+#custom_tags_toggle1,
+#custom_tags_toggle2 /*tags plugin*/,
+#search,
+#mal_control_strip img /*search bar*/,
+a[href='/forum/'] /*forum*/,
+#mal_cs_otherlinks strong /*you're viewing*/,
+#mal_cs_pic,
+a[href='/modules.php?go=faq'] /*learn more*/ {
+  display: none;
+}
+
+.status_selected:last-of-type,
+.status_not_selected:last-of-type {
+  display: none;
+}
