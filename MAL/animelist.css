@@ -93,11 +93,11 @@ a[href='/addtolist.php?hidenav=1'] {
 }
 
 /*history*/
-a[href='/history/Hong-Sul']:before {
+a[href='/history/kannabis']:before {
   display: none!important;  
 }
 
-a[href='/history/Hong-Sul'] {
+a[href='/history/kannabis'] {
   position: fixed;
   top: 279px;
   left: 50%;
@@ -270,7 +270,7 @@ a[href='/panel.php?go=export']:hover, #mal_control_strip a:nth-child(3):hover {
 #mal_cs_links div:nth-child(2) a:nth-child(1),
 #mal_cs_links div:nth-child(2) a:nth-child(2),
 a[href='/addtolist.php?hidenav=1'],
-a[href='/history/Hong-Sul'] {
+a[href='/history/kannabis'] {
   width: 160px;
   height: 22px;
   background: #fff!important;
@@ -293,7 +293,7 @@ a[href='/history/Hong-Sul'] {
 #mal_cs_links div:nth-child(2) a:nth-child(1):hover,
 #mal_cs_links div:nth-child(2) a:nth-child(2):hover,
 a[href='/addtolist.php?hidenav=1']:hover,
-a[href='/history/Hong-Sul']:hover,
+a[href='/history/kannabis']:hover,
 .status_selected a:first-of-type:hover,
 .status_not_selected a:first-of-type:hover,
 .status_selected a:nth-of-type(2):hover,
