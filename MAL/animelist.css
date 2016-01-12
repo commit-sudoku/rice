@@ -1055,7 +1055,7 @@ a[href='/login.php'] {
 }
 
 a[href='/login.php']:before {
-  content:"Hello stranger!"!important;
+  content:"こんにちは stranger!"!important;
   color: #444444;
   width: 250px!important;
   border-bottom: none!important;
