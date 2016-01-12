@@ -161,7 +161,7 @@ WinGetPos, X, Y, begWidth, begHeight, %windowName%
 CenterWindow(windowTitleVariable)
 {
     WinGetPos,,, Width, Height, %windowTitleVariable%
-    WinMove, %windowTitleVariable%,, (A_ScreenWidth/2)-(Width/2), (A_ScreenHeight/2    )-(Height/2)
+    WinMove, %windowTitleVariable%,, (A_ScreenWidth/2)-(Width/2), ((A_ScreenHeight/2    )-(Height/2) + 22)
 }
 
 CenterWindow(windowName)
