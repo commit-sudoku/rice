@@ -337,7 +337,7 @@ a[href='/history/kannabis']:hover,
 }
 
 #mal_cs_listinfo div strong a:before {
-  content: "Hello ";
+  content: "こんにちは ";
   font-family: 'Open Sans';
   font-weight: 300;
   font-size: 12px;
