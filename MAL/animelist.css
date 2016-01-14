@@ -316,7 +316,7 @@ a[href='/history/kannabis']:hover,
   position: fixed;
   background:url('https://raw.githubusercontent.com/commit-sudoku/rice/master/MAL/81878922.png') no-repeat;
   margin-top: -39px;
-  left: 50%;
+  left: calc(50% + 13px);
   margin-left: 160px;
   width: 64px!important;
   height: 64px!important;
@@ -333,7 +333,7 @@ a[href='/history/kannabis']:hover,
   text-decoration: none!important;
   top: 66px;
   left: 50%;
-  margin-left: 238px;
+  margin-left: 250px;
 }
 
 #mal_cs_listinfo div strong a:before {
@@ -346,7 +346,7 @@ a[href='/history/kannabis']:hover,
 }
 
 #mal_cs_listinfo div strong a:after {
-  content: "!";
+  content: "！";
   font-family: 'Open Sans';
   font-weight: 300;
   font-size: 12px;
@@ -358,9 +358,9 @@ a[href='/history/kannabis']:hover,
 body:after {
   position: fixed;
   left: 50%;
-  margin-left: 238px;
+  margin-left: 250px;
   top: 90px;
-  width: 250px;
+  width: 230px;
   content: "私は「カンナビス」ですよ！これは見てと見たと見るつもりのアニメのリストです。";
   color: #444444!important;
   font-family: 'Open Sans';
@@ -384,7 +384,7 @@ body:after {
   font-family: 'Open Sans';
   font-weight: 300;
   font-size: 12px;
-  margin-left: 238px;
+  margin-left: 250px;
 }
 
 #mal_cs_otherlinks div:nth-child(2) a:nth-child(1) {
@@ -1055,7 +1055,7 @@ a[href='/login.php'] {
 }
 
 a[href='/login.php']:before {
-  content:"こんにちは stranger!"!important;
+  content:"こんにちは！"!important;
   color: #444444;
   width: 250px!important;
   border-bottom: none!important;
