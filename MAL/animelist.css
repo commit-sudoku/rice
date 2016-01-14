@@ -127,13 +127,14 @@ a[href='/history/kannabis'] {
   text-decoration: none!important;
   text-transform: lowercase!important;
   letter-spacing: 1.5px;
-  -webkit- transition: letter-spacing .5s linear;
-  -moz-transition: letter-spacing .5s linear;
-  transition: letter-spacing .5s linear;
+  -webkit- transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  transition: color .5s ease;
 }
 
 a[href='/panel.php?go=export']:hover, #mal_control_strip a:nth-child(3):hover {
-  color: #000;
+  color: #000 !important;
+  transition: color .5s ease;
 }
 
 /*cur. watching*/
@@ -157,9 +158,9 @@ a[href='/panel.php?go=export']:hover, #mal_control_strip a:nth-child(3):hover {
   text-decoration: none!important;
   text-transform: lowercase!important;
   letter-spacing: 1.5px;
-  -webkit- transition: letter-spacing .5s linear;
-  -moz-transition: letter-spacing .5s linear;
-  transition: letter-spacing .5s linear;
+  -webkit- transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  transition: color .5s ease;
 }
 
 /*completed*/
@@ -183,9 +184,9 @@ a[href='/panel.php?go=export']:hover, #mal_control_strip a:nth-child(3):hover {
   text-decoration: none!important;
   text-transform: lowercase!important;
   letter-spacing: 1.5px;
-  -webkit- transition: letter-spacing .5s linear;
-  -moz-transition: letter-spacing .5s linear;
-  transition: letter-spacing .5s linear;
+  -webkit- transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  transition: color .5s ease;
 }
 
 /*on hold*/
@@ -209,9 +210,9 @@ a[href='/panel.php?go=export']:hover, #mal_control_strip a:nth-child(3):hover {
   text-decoration: none!important;
   text-transform: lowercase!important;
   letter-spacing: 1.5px;
-  -webkit- transition: letter-spacing .5s linear;
-  -moz-transition: letter-spacing .5s linear;
-  transition: letter-spacing .5s linear;
+  -webkit- transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  transition: color .5s ease;
 }
 
 /*dropped*/
@@ -235,9 +236,9 @@ a[href='/panel.php?go=export']:hover, #mal_control_strip a:nth-child(3):hover {
   text-decoration: none!important;
   text-transform: lowercase!important;
   letter-spacing: 1.5px;
-  -webkit- transition: letter-spacing .5s linear;
-  -moz-transition: letter-spacing .5s linear;
-  transition: letter-spacing .5s linear;
+  -webkit- transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  transition: color .5s ease;
 }
 
 /*plan to watch*/
@@ -261,9 +262,9 @@ a[href='/panel.php?go=export']:hover, #mal_control_strip a:nth-child(3):hover {
   text-decoration: none!important;
   text-transform: lowercase!important;
   letter-spacing: 1.5px;
-  -webkit- transition: letter-spacing .5s linear;
-  -moz-transition: letter-spacing .5s linear;
-  transition: letter-spacing .5s linear;
+  -webkit- transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  transition: color .5s ease;
 }
 
 #mal_cs_links div:nth-child(1) a:nth-child(2),
@@ -284,9 +285,9 @@ a[href='/history/kannabis'] {
   text-decoration: none!important;
   text-transform: lowercase!important;
   letter-spacing: 1.5px;
-  -webkit- transition: letter-spacing .5s linear;
-  -moz-transition: letter-spacing .5s linear;
-  transition: letter-spacing .5s linear;
+  -webkit- transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  transition: color .5s ease;
 }
 
 #mal_cs_links div:nth-child(1) a:nth-child(2):hover,
@@ -304,7 +305,8 @@ a[href='/history/kannabis']:hover,
 .status_not_selected a:nth-of-type(4):hover,
 .status_selected a:nth-of-type(5):hover,
 .status_not_selected a:nth-of-type(5):hover {
-  letter-spacing: 2.7px;
+  color: #000 !important;
+  transition: color .5s ease;
 }
 
 /**************************/
