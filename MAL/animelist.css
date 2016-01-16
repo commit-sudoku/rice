@@ -650,26 +650,16 @@ small .List_LightBox {
 
 .td1:nth-child(6),
 .td2:nth-child(6) {
-
   position: absolute;
-
   margin-top: 40px;
-
   left: 150px;
-
   width: 400px;
-
   height: auto;
-
   display: inline;
-
   background: none;
- 
   font-size: 12px;
- 
   font-family: 'Open Sans';
   font-weight: 300;
-  text-transform: lowercase;
   line-height: 1;
 } 
 
