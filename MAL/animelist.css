@@ -860,7 +860,8 @@ small .List_LightBox {
 }
 
 #copyright:after {
-  content: 'Designed by Hong Sul.';
+  content: '홍설 ✕ カンナビス';
+  display: block;
 }
 
 
