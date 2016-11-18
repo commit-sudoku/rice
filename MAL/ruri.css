@@ -60,43 +60,16 @@ height: 60px;}
 
 @media header-mal-logo {}
 .header .header-title
-{bottom: 0;
-left: 0;
-background: #121923;
+{position: fixed;
 font-size: 0;
-height: 60px;
 text-indent: 0;
-border-top: 30px solid #181f29;
-position: fixed;
 top: initial;
-background-image:none;}
-
-.header-title:before, .header-title:after
-{font-style: italic;
-font-weight: bold;
-position: absolute;
-line-height: 68px;}
-
-.header-title:before
-{content: 'AL';
-letter-spacing: -2px;
-color: #02a9ff;
-font-size: 18px;
-margin-left: -9px;
-text-shadow: 0 1px #80deea;}
-
-.header-title:after
-{content: 'M';
-color: #fff;
-font-size: 16px;
-top: -4px;
-left: 15px;}
-
-.header-title:before
-{transform: scale(1.25);}
-
-.header-title:after
-{transform: scale(1.75);}
+bottom: 0;
+left: 0 !important;
+height: 60px;
+border-top: 30px solid #181f29;
+background: url('//i.imgur.com/9snm60K.png');
+background-size: cover;}
 
 @media header-leftbar-menu {}
 .list-menu-float
@@ -656,33 +629,3 @@ margin: 10px;}
 
 @media personal {}
 .data.volume, .data.chapter, span a[href*="%CB%93"], span a[href*="%CB%91"], span a[href*="%E2%80%A7"] {display: none !important;}
-
-@media header-iconanim {}
-.list-menu-float .icon-menu.profile
-{border-radius: 50%;
-border: 3px solid transparent !important;
-margin: 7px;
-width: 40px;
-height: 40px;
-background-size: 80px;
-background-position-x: -10px;
-background-attachment: fixed;
-transition: height .3s, border-radius .35s, margin .25s;}
-
-.list-menu-float .icon-menu.profile:hover
-{border-radius: 0;
-width: initial;
-margin: 0 0 10px 0;
-height: 80px !important;}
-
-.list-menu-float .icon-menu.profile:after
-{background-color: #fff;
-content: '';
-z-index: -1;
-position: fixed;
-top: 0;
-left: 0;
-transition: height .3s;}
-
-.list-menu-float .icon-menu.profile:hover:after
-{height: 90px;}
