@@ -60,16 +60,43 @@ height: 60px;}
 
 @media header-mal-logo {}
 .header .header-title
-{position: fixed;
+{bottom: 0;
+left: 0;
+background: #121923;
 font-size: 0;
-text-indent: 0;
-top: initial;
-bottom: 0;
-left: 0 !important;
 height: 60px;
+text-indent: 0;
 border-top: 30px solid #181f29;
-background: url('//i.imgur.com/9snm60K.png');
-background-size: cover;}
+position: fixed;
+top: initial;
+background-image:none;}
+
+.header-title:before, .header-title:after
+{font-style: italic;
+font-weight: bold;
+position: absolute;
+line-height: 68px;}
+
+.header-title:before
+{content: 'AL';
+letter-spacing: -2px;
+color: #02a9ff;
+font-size: 18px;
+margin-left: -9px;
+text-shadow: 0 1px #80deea;}
+
+.header-title:after
+{content: 'M';
+color: #fff;
+font-size: 16px;
+top: -4px;
+left: 15px;}
+
+.header-title:before
+{transform: scale(1.25);}
+
+.header-title:after
+{transform: scale(1.75);}
 
 @media header-leftbar-menu {}
 .list-menu-float
