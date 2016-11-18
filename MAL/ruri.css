@@ -59,7 +59,7 @@ height: 60px;}
 {width: 60px;}
 
 @media header-mal-logo {}
-.header .header-title
+.header.header-title
 {bottom: 0;
 left: 0;
 background: #121923;
