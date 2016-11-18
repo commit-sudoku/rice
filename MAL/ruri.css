@@ -624,21 +624,5 @@ margin: 10px;}
 {	display: none;}
 	.tags .edit
 {	font-size: 7em !important;
-	white-space:no-wrap;}}
-
-@media personal {}
-.data.volume, .data.chapter, span a[href*="&tag=!"], span a[href*="&tag=%40"], span a[href*="&tag=~"] {display: none !important;}
-
-.list-table tbody {background: #fff !important;}
-
-.list-unit .list-status-title .stats a, .status-menu-container .status-menu .status-button.on, .fa-search:before {color: #323232 !important;}
-
-.status-menu-container .status-menu .status-button {font-weight: bold !important;}
-
-.stats .fa {display: none;}
-
-.list-item {border-radius: 2px; border: 1px solid #f0f0f0 !important; padding:7px;}
-
-.list-table .list-table-data .data.image a {width: 150px; height: 200px;}
-
-.header .header-menu .btn-menu {font-size: 1.2em;}
+	white-space:no-wrap;}
+}
