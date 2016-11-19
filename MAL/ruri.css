@@ -1,5 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Karla';
-/* 		
+/*      
 
     sayounara @ MAL
 
@@ -405,14 +405,14 @@ a[href*="%C2%9"] {
     width: 100%;
     border-top: 1px solid #e6e6e6 !important;
     overflow: hidden;
-  	text-overflow: "...";
-  	white-space: nowrap;
+    text-overflow: "...";
+    white-space: nowrap;
 }
 
 @media entrytitle {} .data.title > a:hover {
     max-height: 500px;
     overflow: visible;
-  	white-space: normal;
+    white-space: normal;
 }
 .list-item .data.title {
     box-sizing: border-box;
@@ -806,7 +806,7 @@ span a[href*="&tag=~"] {
 }
 
 #show-stats-button {
-	margin-right: 11px;
+    margin-right: 11px;
 }
 
 .list-item {
