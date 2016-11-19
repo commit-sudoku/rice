@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Karla';
+
 /*      
 
     sayounara @ MAL
@@ -410,7 +411,6 @@ a[href*="%C2%9"] {
 }
 
 @media entrytitle {} .data.title > a:hover {
-    max-height: 500px;
     overflow: visible;
     white-space: normal;
 }
@@ -727,6 +727,7 @@ a[href$="&tag=*"]:after {
 }
 @media mediaquery {} @media (min-width: 1901px) {
     #status-menu,
+    #cover-image-container,
     .list-unit,
     .list-unit .list-status-title {
         width: 1490px !important;
@@ -734,6 +735,7 @@ a[href$="&tag=*"]:after {
 }
 @media (max-width: 1900px) {
     #status-menu,
+    #cover-image-container,
     .list-unit,
     .list-unit .list-status-title {
         width: 1490px !important;
@@ -741,6 +743,7 @@ a[href$="&tag=*"]:after {
 }
 @media (max-width: 1700px) {
     #status-menu,
+    #cover-image-container,
     .list-unit,
     .list-unit .list-status-title {
         width: 1305px !important;
@@ -748,6 +751,7 @@ a[href$="&tag=*"]:after {
 }
 @media (max-width: 1500px) {
     #status-menu,
+    #cover-image-container,
     .list-unit,
     .list-unit .list-status-title {
         width: 1120px !important;
@@ -755,6 +759,7 @@ a[href$="&tag=*"]:after {
 }
 @media (max-width: 1300px) {
     #status-menu,
+    #cover-image-container,
     .list-unit,
     .list-unit .list-status-title {
         width: 930px !important;
@@ -762,6 +767,7 @@ a[href$="&tag=*"]:after {
 }
 @media (max-width: 1100px) {
     #status-menu,
+    #cover-image-container,
     .list-unit,
     .list-unit .list-status-title {
         width: 750px !important;
@@ -769,6 +775,7 @@ a[href$="&tag=*"]:after {
 }
 @media (max-width: 900px) {
     #status-menu,
+    #cover-image-container,
     .list-unit,
     .list-unit .list-status-title {
         width: 560px !important;
