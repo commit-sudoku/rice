@@ -4,10 +4,10 @@
     sayounara @ MAL
 
     thanks to:
-        Ruri - CSS   
-	   AniList - covers style
-	   LukeLC - cover code foundation + image gen code
-	   Syaoran3 - mal cover generator
+      Ruri - CSS   
+      AniList - covers style
+      LukeLC - cover code foundation + image gen code
+      Syaoran3 - mal cover generator
 
 */
 
@@ -587,11 +587,11 @@ div[class*="tags-"] {
 }
 @media entrytags-favorites {} a[href$="&tag=*"] {
     position: absolute;
-    left: -2px;
+    left: 4px;
     width: 150px;
     height: 0;
     font-size: 15px;
-    top: -2px;
+    top: -1px;
     color: transparent !important;
 }
 a[href$="&tag=*"]:after {
