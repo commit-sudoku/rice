@@ -783,8 +783,7 @@ a[href$="&tag=*"]:after {
         white-space: no-wrap;
     }
 }
-@media personal {} .data.volume,
-.data.chapter,
+@media personal {}
 span a[href*="&tag=!"],
 span a[href*="&tag=%40"],
 span a[href*="&tag=~"] {
