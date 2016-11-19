@@ -1,10 +1,15 @@
 @import 'https://fonts.googleapis.com/css?family=Karla';
-/* 		ruri @ MAL
+/* 		
 
-   thanks to:
-		AniList - covers style
-		LukeLC - cover code foundation + image gen code
-		Syaoran3 - mal cover generator*/
+    sayounara @ MAL
+
+    thanks to:
+        Ruri - CSS   
+	   AniList - covers style
+	   LukeLC - cover code foundation + image gen code
+	   Syaoran3 - mal cover generator
+
+*/
 
 .more,
 .link.sort + a,
@@ -36,7 +41,7 @@ a,
     /*6eb_cf4*/
 }
 a:hover {
-    color: #a7dbe3 !important;
+    color: #ffA0A0 !important;
 }
 html {
     overflow-x: hidden;
@@ -230,7 +235,7 @@ i.fa.fa-plus-circle,
 }
 .status-menu-container .status-menu .status-button {
     display: none;
-    width: 150px;
+    width: 152px;
     text-align: left;
     font-size: 1.2em;
     padding: 8px 10px;
@@ -258,7 +263,7 @@ i.fa.fa-plus-circle,
 }
 @media topbar-search {} .status-menu-container .search-container {
     top: 0;
-    right: 145px
+    right: 137px
 }
 .status-menu-container .search-container #search-box {
     background: none;
@@ -430,9 +435,9 @@ a[href*="%C2%9"] {
     color: transparent !important;
 }
 @media entryscore {} .list-item .data.score {
-    right: 5px;
+    right: 0px;
     width: 15px;
-    text-align: left;
+    text-align: right;
 }
 .score select.edit-transition {
     margin-left: -10px;
@@ -449,7 +454,7 @@ a[href*="%C2%9"] {
 .data.progress,
 .data.chapter,
 .data.volume {
-    left: 10px;
+    /*left: 10px;*/
     word-spacing: -2px;
 }
 .data.volume {
@@ -582,11 +587,11 @@ div[class*="tags-"] {
 }
 @media entrytags-favorites {} a[href$="&tag=*"] {
     position: absolute;
-    left: 0;
+    left: -2px;
     width: 150px;
     height: 0;
     font-size: 15px;
-    top: 0;
+    top: -2px;
     color: transparent !important;
 }
 a[href$="&tag=*"]:after {
@@ -799,6 +804,11 @@ span a[href*="&tag=~"] {
 .stats .fa {
     display: none;
 }
+
+#show-stats-button {
+	margin-right: 11px;
+}
+
 .list-item {
     border-radius: 2px;
     border: 1px solid #f0f0f0 !important;
